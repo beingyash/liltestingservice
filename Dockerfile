@@ -1,4 +1,4 @@
-FROM liltestingbase
+FROM beingyash/liltestingbase
 
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
 dpkg --unpack google-chrome-stable_current_amd64.deb && \
