@@ -11,4 +11,4 @@ RUN git clone https://beingyash:zBcbFmFTUeV4EDH3Tmg8@bitbucket.org/dostmohit/rev
 
 WORKDIR /revisee2e
 
-ENTRYPOINT [ "protractor", "conf.js", "--grep", "@$TESTING_TYPE" --suite "$SUITE_NAME" ]
+ENTRYPOINT protractor conf.js --grep @$TESTING_TYPE --suite $SUITE_NAME
